@@ -10,7 +10,7 @@ public class SpeedTest {
     public static void main(String[] args) {
         long t=System.currentTimeMillis();
         long maxT=1000000000;
-        Random rand =new Random(1);
+        Random rand =new Random();
         int n1=rand.nextInt(),n2=rand.nextInt();
         for(long i=0;i<maxT;i++){
             int r=(n1+n2)*(n1+n2);
