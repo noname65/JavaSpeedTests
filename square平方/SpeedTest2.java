@@ -1,10 +1,10 @@
-package speedtest;
+package speedtest2;
 import java.util.Random;
 /**
  * The result of adding five numbers is still about the same
  * 五个数相加结果仍然差不多
  */
-public class SpeedTest {
+public class SpeedTest2 {
     public static void main(String[] args) {
         long t=System.currentTimeMillis();
         long maxT=1000000000;
